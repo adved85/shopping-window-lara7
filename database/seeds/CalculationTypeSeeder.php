@@ -12,10 +12,10 @@ class CalculationTypeSeeder extends Seeder
      */
     public function run()
     {
-        $typesJson = file_get_contents('./database/seeds/strings/calculationtype.json');
-        $typesArray = json_decode($typesJson, true);
+        $calculationTypesJson = file_get_contents('./database/seeds/strings/calculationtype.json');
+        $calculationTypesArray = json_decode($calculationTypesJson, true);
 
-        foreach($typesArray as $type)
+        foreach($calculationTypesArray as $type)
         {
             CalculationType::create($type);
         }

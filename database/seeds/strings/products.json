@@ -1,0 +1,64 @@
+[
+    {
+        "name": "The Queen's Gambit",
+        "description": "When she is sent to an orphanage at the age of eight, Beth Harmon soon discovers two ways to escape her surroundings, albeit fleetingly: playing chess and taking the little green pills given to her and the other children to keep them subdued. Before long, it becomes apparent that hers is a prodigious talent, and as she progresses to the top of the US chess rankings she is able to forge a new life for herself. But she can never quite overcome her urge to self-destruct. For Beth, there's more at stake than merely winning and losing.",
+        "photo": "https://image.ebooks.com/previews/002/002125/002125515/002125515-hq-168-80.jpg",
+        "price": 10.99,
+        "product_type_id": 1,
+        "attributes": {
+            "publisher": "Orion",
+            "publiched_at": "April 2016",
+            "ISBN": 9781474600859,
+            "Title": "The Queen's Gambit",
+            "Author": "Walter Tevis",
+            "Imprint": "Weidenfeld & Nicolson",
+            "Language": "English"
+        }
+    },
+    {
+        "name": "Dune",
+        "description": "The Duke of Atreides has been manoeuvred by his arch-enemy, Baron Harkonnen, into administering the desert planet of Dune. Although it is almost completely without water, Dune is a planet of fabulous wealth, for it is the only source of a drug prized throughout the Galactic Empire. The Duke and his son, Paul, are expecting treachery, and it duly comes - but from a shockingly unexpected place.",
+        "photo": "https://image.ebooks.com/previews/000/000758/000758192/000758192-hq-168-80.jpg",
+        "price": 8.99,
+        "product_type_id": 1,
+        "attributes": {
+            "publisher": "Orion",
+            "publiched_at": "December 2010",
+            "ISBN": 9780575104419,
+            "Title": "Dune",
+            "Author": "Frank Herbert",
+            "Imprint": "Gateway",
+            "Language": "English"
+        }
+    },
+    {
+        "name": "Samsung Galaxy S9 SM-G960F 64GB",
+        "description": "New: A brand-new, unused, unopened, undamaged item in its original packaging (where packaging is applicable). Packaging should be the same as what is found in a retail store, unless the item is handmade or was packaged by the manufacturer in non-retail packaging, such as an unprinted box or plastic bag.",
+        "photo": "https://i.ebayimg.com/images/g/QRgAAOSwqCdey3XW/s-l1600.jpg",
+        "price": 283.99,
+        "product_type_id": 2,
+        "attributes": {
+            "Brand": "Samsung",
+            "Model": "G960F（S9)",
+            "Operating System": "Android",
+            "Processor": "Octa Core",
+            "RAM": "4 GB",
+            "Color": "multicolored"
+        }
+    },
+    {
+        "name": "Apple iPhone 8 64GB",
+        "description": "IPhone 8 64GB and iPhone 8 256GB, factory unlocked and AT&T and T-Mobile, excellent condition. Tested by our tech facility and confirmed to be in full functionality. Select your color option. Can be used with all USA carriers, Verizon, T-Mobile, AT&T, Sprint and all others when selected the specific carrier or unlocked.",
+        "photo": "https://i.ebayimg.com/images/g/oeQAAOSwwQ1gBgVY/s-l1600.jpg",
+        "price": 160.98,
+        "product_type_id": 2,
+        "attributes": {
+            "Brand": "Apple",
+            "Model": "Apple iPhone 8",
+            "Operating System": "iOS",
+            "Processor": "Hexa-Core",
+            "RAM": "2 GB",
+            "Color": "black"
+        }
+    }
+]

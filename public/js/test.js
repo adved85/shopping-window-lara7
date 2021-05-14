@@ -104,7 +104,7 @@ console.log('hello from test');
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\OpenServer\domains\easy-shop\resources\js\test.js */"./resources/js/test.js");
+module.exports = __webpack_require__(/*! C:\OpenServer\domains\shopping-window-lara7\resources\js\test.js */"./resources/js/test.js");
 
 
 /***/ })

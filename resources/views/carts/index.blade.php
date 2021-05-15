@@ -62,6 +62,15 @@
             <td colspan="2" class="hidden-xs"></td>
             <td class="hidden-xs text-center"><strong>Total ${{$total}}</strong></td>
         </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td>
+                <a href="{{ route('checkout.create') }}" class="btn btn-success">
+                    Proceed To Checkout
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </td>
+        </tr>
         </tfoot>
     </table>
 @endsection

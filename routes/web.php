@@ -19,8 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
-Route::get('/', 'ProductController@index');
-
+Route::get('/', 'ProductController@topSellers');
 Route::resource('products', 'ProductController')->only(['index', 'show']);
 
 Route::get('cart', 'CartController@index');
@@ -29,3 +28,12 @@ Route::patch('update-cart', 'CartController@updateCart');
 Route::delete('remove-from-cart', 'CartController@removeFromCart');
 
 // Route::get('/home', 'HomeController@index')->name('home');
+
+Route::middleware(['auth'])->group(function () {
+    Route::prefix('checkout')->name('checkout.')->group(function () {
+        Route::get('/', 'CheckoutController@create')->name('create');
+        Route::post('store', 'CheckoutController@store')->name('store');
+    });
+
+    Route::resource('orders', 'OrderController')->only(['index', 'show']);
+});

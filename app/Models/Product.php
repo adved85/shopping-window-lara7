@@ -21,6 +21,11 @@ class Product extends Model
         'attributes' => 'array',
     ];
 
+    /**
+     * Get the productType that owns the Product
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
     public function productType(): BelongsTo
     {
         return $this->belongsTo(ProductType::class);

@@ -12,10 +12,21 @@ class ProductController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function topSellers()
     {
         // session()->forget('cart');
         // dump($cart = session()->get('cart'));
+        $products = Product::get();
+        return view('products.index', compact('products'));
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
         $products = Product::get();
         return view('products.index', compact('products'));
     }
@@ -55,8 +66,6 @@ class ProductController extends Controller
     {
         //
     }
-
-
 
     /**
      * Show the form for editing the specified resource.

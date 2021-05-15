@@ -10,6 +10,11 @@ class ProductType extends Model
 {
     protected $fillable = ['name'];
 
+    /**
+     * Get all of the products for the ProductType
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
     public function products(): HasMany
     {
         return $this->hasMany(Product::class);

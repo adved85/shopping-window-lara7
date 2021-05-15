@@ -6,6 +6,9 @@ use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
+use App\Models\CalculationType;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+
 class User extends Authenticatable
 {
     use Notifiable;
@@ -36,4 +39,16 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+
+    /**
+     * Get the calculationType that owns the User
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function calculationType(): BelongsTo
+
+    {
+        return $this->belongsTo(CalculationType::class);
+    }
 }

@@ -20,8 +20,6 @@
             <div class="card">
                 <div class="card-header text-center">
                     <h6>{{ __('Orders Number') }} № {{$order->order_number}}</h6>
-                    <small>Total: ${{$order->grand_total}} | Quantity: {{$order->item_count}}</small>
-
                 </div>
                 <div class="card-body">
                     {{-- @dump($order) --}}
@@ -57,6 +55,13 @@
                           </tr>
                           @endforelse
                         </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="4"></td>
+                                <td>{{$order->item_count}}</td>
+                                <td>${{$order->grand_total}}</td>
+                            </tr>
+                        </tfoot>
                       </table>
 
                 </div>

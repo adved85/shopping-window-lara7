@@ -19,7 +19,7 @@
                             <th scope="col">Total</th>
                             <th scope="col">Q-ty</th>
                             <th scope="col">Status</th>
-                            <th scope="col">Actions</th>
+                            <th scope="col"></th>
                           </tr>
                         </thead>
                         <tbody>

@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Models\{Cart, Order, OrderItem, Product};
+use App\Models\{Cart, Order};
 
 
 class CheckoutController extends Controller
@@ -53,7 +53,6 @@ class CheckoutController extends Controller
         $order = Order::create($orderData);
         if ($order && !empty($cart)) {
             foreach ($cart as $key => $item) {
-                // $product = Product::find($key);
 
                 $order->orderItems()->create([
                     'product_id' => $key,

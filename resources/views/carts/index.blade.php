@@ -50,9 +50,6 @@
                 @endif
             </tbody>
             <tfoot>
-            {{-- <tr class="d-none d-sm-block">
-                <td class="text-center"><strong>Total {{$total}}</strong></td>
-            </tr> --}}
             <tr>
                 <td>
                     <a href="{{ url('/') }}" class="btn btn-warning">
